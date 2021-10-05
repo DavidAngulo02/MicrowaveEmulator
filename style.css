@@ -1,0 +1,55 @@
+#chicken{
+    width: 40%;
+    border-radius: 10%;
+    border-color: gray;
+    border-style: dotted;
+    border-width: 5px;
+}
+
+#timer{
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+    color: whitesmoke;
+
+    background: darkslategrey;
+    border-color: darkgray;
+    border-style: solid;
+    border-width: 3px;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    background-image: url("metalBackground.jpg");
+    background-repeat: repeat-x;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-HUD{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+button{
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    width: 30%;
+    border-radius: 5px;
+    border-color: dimgray;
+    border-style: groove;
+    background-image: radial-gradient(circle, whitesmoke 10%, darkgray 85%, gray 5%);
+}
+
+button:active{
+    background-image: radial-gradient(circle, darkgray, gray);
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Microhonditas</title>
+    <script src="microwave.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>El microhondas</h2>
+<div class="flex-container">
+<img id="chicken" src="raw_chicken.jpg">
+<div class="flex-HUD">
+    <div>
+    <p>Tiempo de coción</p>
+    <p id="timer">0</p>
+    </div>
+    <div>
+    <button onclick="addCounter(1)">1</button>
+    <button onclick="addCounter(2)">2</button>
+    <button onclick="addCounter(3)">3</button>
+    </div>
+    <div>
+    <button onclick="addCounter(4)">4</button>
+    <button onclick="addCounter(5)">5</button>
+    <button onclick="addCounter(6)">6</button>
+    </div>
+    <div>
+    <button onclick="addCounter(7)">7</button>
+    <button onclick="addCounter(8)">8</button>
+    <button onclick="addCounter(9)">9</button>
+    </div>
+    <div>
+    <button onclick="eraseCounter()">Annul</button>
+    <button onclick="addCounter(0)">0</button>
+    <button onclick="beginCounter()">Start</button>
+    </div>
+</div>
+</div>
+</body>
+</html>
